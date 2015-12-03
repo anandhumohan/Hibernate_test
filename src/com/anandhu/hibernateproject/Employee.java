@@ -1,26 +1,32 @@
 package com.anandhu.hibernateproject;
 
 public class Employee {
-	private int empID;
-	private String firstName,lastName;
-	public int getID(){
-		return empID;
+	private int eid;
+	private String firstName;
+	private String lastName;
+
+	public int getEid() {
+		return eid;
 	}
-	public void setID(int empID){
-		this.empID = empID;
+
+	public void setEid(int eid) {
+		this.eid = eid;
 	}
-	public String getFirstName(){
+
+	public String getFirstName() {
 		return firstName;
 	}
-	public void setFirstName(String firstName){
+
+	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	public String getLastName(){
+
+	public String getLastName() {
 		return lastName;
 	}
-	public void setLastName(String lastName){
+
+	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
 
 }

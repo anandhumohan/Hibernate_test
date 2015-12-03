@@ -17,7 +17,7 @@ public class EmployeeTest {
 		SessionFactory factory = cf.buildSessionFactory();
 		Session session = factory.openSession();
 		Employee employee = new Employee();
-		employee.setID(30);
+		employee.setEid(30);
 		employee.setFirstName("raju");
 		employee.setLastName("ryan");
 		Transaction transaction = session.beginTransaction();
