@@ -2,8 +2,7 @@ package com.anandhu.hibernateproject;
 
 public class Employee {
 	private int eid;
-	private String firstName;
-	private String lastName;
+	private String firstName, lastName;
 
 	public int getEid() {
 		return eid;
